@@ -57,3 +57,6 @@ inner join acervos.acervos ace on (ace.id_livro = li.id)
 where
 	ace.nome = 'Duda'
 	and gen.descricao = 'comedia'
+
+
+select * from acervos.autores
